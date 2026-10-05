@@ -14,16 +14,25 @@
         body {
             font-family: Arial;
         }
+
+        #tituloCentrado {
+            text-align: center;
+        }
+
+        #textoConEstilo {
+            color: green; 
+            font-size: 20px;
+        }
     </style>
 </head>
 
-<main>
+<body>
 
     <!-- Cabecera y menú principal -->
     <header id="inicio">
         <img alt="Logo" src="imagenes/logo.png" width="80" height="80">
         <h1>Sendeiros do Norte</h1>
-        <p style="color: green; font-size: 20px;">Club de senderismo para todos los niveles</p>
+        <p id="textoConEstilo">Club de senderismo para todos los niveles</p>
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -35,7 +44,7 @@
         </div>
     </header>
 
-    <body>
+    <main>
 
         <section id="presentacion">
             <h1>Bienvenidos al club</h1>
@@ -191,7 +200,7 @@
         </section>
 
         <section id="material">
-            <h2 style="text-align: center;">Qué llevar a la montaña</h2>
+            <h2 id="tiuloCentrado">Qué llevar a la montaña</h2>
 
             <h3>Equipo básico</h3>
 
@@ -333,7 +342,7 @@
                 </ul>
             </aside>
         </section>
-    </body>
+    </main>
 
     <footer>
         <p>&copy; 2026 Sendeiros do Norte. Todos los derechos reservados.</p>
@@ -353,6 +362,6 @@
         <p><small>Sitio web ficticio creado para un ejercicio de HTML.</small></p>
     </footer>
 
-</main>
+</body>
 
 </html>
